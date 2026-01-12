@@ -2,6 +2,7 @@
 /runs/
 /postlayout_verification/
 /sim/
+
 # Ignore log files
 *.log
 
