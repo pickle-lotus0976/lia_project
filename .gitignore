@@ -1,0 +1,26 @@
+# Ignore the entire runs directory
+/runs/
+
+# Ignore log files
+*.log
+
+# Ignore tool-specific outputs
+*.odb
+*.def
+*.lef
+*.gds
+*.vcd
+*.fsdb
+*.klayout.xml
+*.lvs.db
+*.rpt
+*.sdf
+*.spef
+
+# Ignore the symlinks created by nix-build or nix develop
+/result
+/result-*
+
+# Ignore Python cache
+__pycache__/
+*.pyc
